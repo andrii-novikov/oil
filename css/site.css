@@ -1,0 +1,83 @@
+body {
+    padding:0;
+    margin:0;
+    min-width:320px;
+    font-family: "Clear Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.parallax-page {
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0px;
+    background: rgba(0,0,0,0.3);
+}
+
+header .menu_btn {
+    display: none;
+    width: 55px;
+    height: 55px;
+    font-size: 2em;
+    background: #fdd402;
+    border: none;
+    border-radius: 6px;
+    line-height: 60px;
+    position: fixed;
+    top: 35px;
+    left: 35px;
+    z-index: 5000;
+}
+header .main_menu {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.main_menu ul {
+    list-style: none;
+    padding: 0;
+}
+.main_menu ul li {
+    display:inline-block;
+    padding: 5px;
+}
+
+.main_menu ul li a {
+    color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.main_menu ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.4s ease;
+}
+
+header .logo{
+    display: inline-block;
+    float: right;
+    margin-right:25px;
+    margin-top:25px;
+}
+
+header .content {
+    color: white;
+    text-align: right;
+    width: 50%;
+    float: right;
+    font-size: 27px;
+    margin: 45px 20px 0;
+}
+
+header .content p:nth-child(2n) {
+    font-weight: bold;
+    font-size: 30px;
+}

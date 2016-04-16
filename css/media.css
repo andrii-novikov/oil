@@ -1,0 +1,101 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    header .content {font-size: 25px}
+    header .content p:nth-child(2n) {font-size: 27px}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    header .main_menu ul li a {
+        letter-spacing: 0px;
+    }
+    header .content {font-size: 22px}
+    header .content p:nth-child(2n) {font-size: 25px}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header .main_menu {
+        display: none;
+    }
+    header .menu_btn {
+        display: block;
+    }
+
+    header .main_menu.mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+        box-shadow: 0px 0px 0px 99999px rgba(0,0,0,0.4);
+        padding-top: 7em;
+        width: 100%;
+    }
+
+    .main_menu.mobile ul li {
+        display: block;
+    }
+
+    .main_menu ul li {
+        background: rgba(0,0,0,0);
+        transition: 0.6s;
+        transition-delay: 0.2s;
+
+    }
+    .main_menu ul li:hover {
+        background: rgba(0,0,0,0.4);
+        transition: 0.6s;
+        transition-timing-function: ease;
+    }
+
+    .main_menu ul li a,
+    .main_menu ul li a:hover {
+        text-decoration: none;
+        border: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header .content {font-size: 18px}
+    header .content p:nth-child(2n) {font-size: 20px}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    header .main_menu {
+        display: block!important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

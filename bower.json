@@ -1,0 +1,24 @@
+{
+  "name": "landing",
+  "authors": [
+    "Andrew Novikov <andruha2921@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "parallax.js": "^1.4.2",
+    "page-scroll-to-id": "^1.5.4",
+    "animate.css": "^3.5.1"
+  }
+}
