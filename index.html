@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="css/media.css">
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="bower_components/glidejs/dist/css/glide.core.css">
+    <link rel="stylesheet" href="bower_components/glidejs/dist/css/glide.theme.css">
 </head>
 <body>
 <header class="parallax-page" data-parallax="scroll" data-image-src="img/header.jpg">
@@ -41,9 +43,74 @@
     </div>
 </header>
 
+<section class="parallax-page solutions" data-parallax="scroll">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 ready">
+                <h2 class="mark">Готовые решения для летнего сезона</h2>
+                <p><i>UNIVERSAL:</i> 5л масло XTC 5w40 +промывка+присадка B2  = <i>2662 ₽</i></p>
+                <p><i>PREMIUM:</i> 5л масло XTS  5w30 +промывка+присадка LongLife = <i>3535 ₽</i></p>
+                <p><i>ECOTECH:</i> 5л масло XTEC 5w30 + промывка + присадка B1 = <i>5555 ₽</i></p>
+                <p><i>4Х4.SPORT:</i> 5л масло C60 5w40 +промывка+присадка TurboProtect = <i>6565 ₽</i></p>
+                <p><i>RACING.SPORT:</i> 5л масло XTR 5w50 +промывка+присадка Full Metal = <i>9999 ₽</i></p>
+                <p>Готовые решения подходят для 80% а/м, но мы будем рады подобрать для Вас индвидуальное решение и мотивировать его если Вы заполните форму.</p>
+                </p>
+
+                <div id="Glide" class="glide slider">
+                    <div class="glide__arrows">
+                        <button class="glide__arrow prev" data-glide-dir="<"><span class="glyphicon glyphicon-arrow-left"></span> </button>
+                        <button class="glide__arrow next" data-glide-dir=">"><span class="glyphicon glyphicon-arrow-right "></button>
+                    </div>
+                    <div class="glide__wrapper">
+                        <ul class="glide__track">
+                            <li class="glide__slide"><img src="img/slides/1.jpg"></li>
+                            <li class="glide__slide"><img src="img/slides/2.jpg"></li>
+                            <li class="glide__slide"><img src="img/slides/3.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="glide__bullets"></div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-push-1 individual">
+                <h2>Подберем индивидуальное решение для Вашего а/м и отправим на почту с подробностями</h2>
+                <form class="text-center">
+                    <div class="form-group">
+                        <label for="about_car">Марка / год выпуска / двигатель / пробег</label>
+                        <input id="about_car" class="form-control" placeholder="Audi A3 / 2010 / 1.6 / 100тыс" required>
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="form-group">
+                        <select id="fuel" class="form-control selectpicker">
+                            <option>Бензин</option>
+                            <option>Дизель</option>
+                        </select>
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="form-group">
+                        <input id="email" class="form-control" type="email" placeholder="Введите email">
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="form-group">
+                        <input id="phone" class="form-control" type="text" placeholder="Введите телефон">
+                        <p class="help-block"></p>
+                    </div>
+                    <button type="submit" class="btn btn-success">Хочу узнать</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="parallax-page" data-parallax="scroll">
+    <h1>djlaksdjaljdla</h1>
+</section>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="js/common.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 <script src="bower_components/parallax.js/parallax.min.js"></script>
+<script src="bower_components/glidejs/dist/glide.min.js"></script>
 <script>
 </script>
 </body>
