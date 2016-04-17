@@ -25,7 +25,6 @@
 })(jQuery);
 
 $(document).ready(function () {
-   $('.main_menu').animated('flipInX','flipOutX');
    $('header .content').animated('fadeInRight','fadeOutLeft');
    $('header .logo').animated('fadeInRight','fadeOutLeft');
    $('.solutions .ready').animated('fadeInLeft','fadeOutRight');
