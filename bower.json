@@ -21,6 +21,7 @@
     "page-scroll-to-id": "^1.5.4",
     "animate.css": "^3.5.1",
     "bootstrap-select": "^1.10.0",
-    "glidejs": "^2.0.7"
+    "glidejs": "^2.0.7",
+    "waypoints": "^2.0.5"
   }
 }
