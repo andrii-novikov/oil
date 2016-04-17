@@ -11,7 +11,7 @@ body {
 }
 
 .parallax-page {
-    min-height: 600px;
+    min-height: 300px;
     width: 100%;
     overflow: hidden;
     padding: 20px 0px;
@@ -19,18 +19,22 @@ body {
 }
 
 /*header*/
+header.parallax-page {
+min-height: 100vh;
+}
+
 header .menu_btn {
     display: none;
-    width: 55px;
-    height: 55px;
-    font-size: 2em;
+    width: 35px;
+    height: 35px;
+    font-size: 1.5em;
     background: #fdd402;
     border: none;
     border-radius: 6px;
-    line-height: 60px;
+    line-height: 1;
     position: fixed;
-    top: 35px;
-    left: 35px;
+    top: 15px;
+    left: 15px;
     z-index: 5000;
 }
 header .main_menu {
@@ -108,6 +112,7 @@ section.solutions .bmark {
 .solutions .ready {
     border-radius: 10px;
     background: rgba(227,227,223,.51);
+    margin-bottom: 15px;
 }
 
 .solutions .ready p {
@@ -141,4 +146,107 @@ section.solutions .bmark {
     background: rgba(253,249,13,.59);;
     border-radius: 10px;
     padding: 15px;
+}
+
+/*advantages*/
+
+section.advantages {
+    background: #faf24b;
+}
+
+.advantages h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.advantages .advantage {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.advantages .advantage img {
+    margin-bottom: 15px;
+}
+.advantages .advantage .description {
+    background: #f5dc13;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/*oil series*/
+
+section.oils {
+    background: #ffffff ;
+}
+
+.oils .oil {
+    background: #4d5555;
+    color: #ffffff;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 0px 20px 15px;
+    margin-bottom: 10px;
+    min-height: 26em;
+}
+.oils .oil:nth-child(2n) {
+    background: #858c92;
+}
+
+.oils .oil h3 {
+    font-weight:normal;
+}
+.oils .oil .description {
+    text-align: left;
+}
+
+.oils .text {
+    color: #20023e;
+    font-size: 24px;
+}
+.oils .text p:nth-child(2n+1),
+.oils .text p:nth-child(2n+1) a,
+.oils .text p:nth-child(2n+1) a:visited {
+    color: #6b6b6b;
+}
+.oils .text a,
+.oils .text a:visited {
+    text-decoration: underline;
+    color: #20023e;
+}
+
+/*discounts*/
+section.discounts {
+ background: #f7e303;
+}
+.discounts h2 {
+    text-align: center;
+    font-weight:normal;
+    font-size:40px;
+    margin: 2em auto 1em;
+}
+.discounts .discount {
+    min-height:23em;
+    background: #b4ac6a;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.discounts .discount:nth-child(3){
+    background: #949f89;
+}
+.discounts .discount:nth-child(4){
+    background: #868775;
+}
+.discounts .discount:nth-child(5){
+    background: #797D43;
+}
+.discounts .discount h3 {
+    font-size: 25px;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+.discounts .discount p {
+    font-size: 20px;
 }

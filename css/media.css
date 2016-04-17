@@ -11,10 +11,23 @@
     header .main_menu ul li a {
         letter-spacing: 0px;
     }
-    header .content {font-size: 22px}
-    header .content p:nth-child(2n) {font-size: 25px}
 
+    header .content {
+        font-size: 22px
+    }
 
+    header .content p:nth-child(2n) {
+        font-size: 25px
+    }
+
+    .oils .oil {
+        min-height:16em;
+    }
+
+    .discounts h2 {
+        font-size:30px;
+        margin: 0.5em auto 1em;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -27,13 +40,14 @@
     }
 
     header .main_menu.mobile {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,0.4);
-        box-shadow: 0px 0px 0px 99999px rgba(0,0,0,0.4);
+        background: rgba(0,0,0,0.8);
+        box-shadow: 0px 0px 0px 99999px rgba(0,0,0,0.8);
         padding-top: 7em;
         width: 100%;
+        z-index: 100;
     }
 
     .main_menu.mobile ul li {
@@ -47,7 +61,7 @@
 
     }
     .main_menu ul li:hover {
-        background: rgba(0,0,0,0.4);
+        background: rgba(256,256,256,0.1);
         transition: 0.6s;
         transition-timing-function: ease;
     }
@@ -65,6 +79,22 @@
     header .logo img {
         max-width: 125px;
         height: auto;
+    }
+
+    .oils .oil {
+        min-height:0;
+    }
+
+    .oils .text {
+        font-size: 16px;
+    }
+
+    .discounts .discount {
+        min-height: 0;
+    }
+
+    .discounts h2, .oils h2 {
+        font-size:25px;
     }
 }
 
